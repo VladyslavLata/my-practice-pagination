@@ -26,13 +26,22 @@ body {
   background-color: #399938;
   border-radius: 10px;
 }
-S
+
 .list {
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.list>li {
+.list li {
   flex-basis: calc((100% - 4 * 10px) / 5);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.is-hiden {
+  display: none;
 }
