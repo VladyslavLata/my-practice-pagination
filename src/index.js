@@ -42,7 +42,7 @@ function clearList() {
 
 function markupData({ title, description, urlToImage }) {
   return `<li>
-  <img src="${urlToImage}" alt="" width="300px">
+  <img src="${urlToImage}" alt="" width="320px">
         <h2>${title}</h2>
         <p>${description}</p>
       </li>`;
